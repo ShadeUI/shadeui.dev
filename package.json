@@ -1,0 +1,12 @@
+{
+  "name": "shadeui",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx"
+  }
+}
